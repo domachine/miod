@@ -1,0 +1,17 @@
+{
+  "name": "miod",
+  "paths": [
+    ".."
+  ],
+  "dependencies": {
+    "component/dropload": "*",
+    "component/query": "*"
+  },
+  "main": "miod.js",
+  "scripts": [
+    "miod.js"
+  ],
+  "styles": [
+    "miod.css"
+  ]
+}

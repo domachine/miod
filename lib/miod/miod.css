@@ -1,0 +1,12 @@
+
+body {
+  padding: 50px;
+}
+#drop {
+  width: 300px;
+  height: 300px;
+  border: 1px dotted #ddd;
+}
+#drop.over {
+  border: 3px dotted #ddd;
+}
