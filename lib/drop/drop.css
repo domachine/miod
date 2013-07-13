@@ -1,0 +1,20 @@
+
+.drop {
+  clear: left;
+}
+
+.drop-filename {
+  display: block;
+  float: left;
+  width: 300px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 15px;
+}
+
+.drop-progress {
+  display: block;
+  float: left;
+  margin-left: 20px;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "drop",
+  "paths": [
+    ".."
+  ],
+  "dependencies": {
+    "component/progress": "*",
+    "component/domify": "*",
+    "component/dom": "*",
+    "component/emitter": "*",
+    "component/reactive": "*"
+  },
+  "main": "drop.js",
+  "scripts": [
+    "drop.js",
+    "view.js",
+    "template.js"
+  ],
+  "styles": [
+    "drop.css"
+  ]
+}

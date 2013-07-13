@@ -1,8 +1,8 @@
 
-lib/miod/components: lib/miod/component.json
-	@cd lib/miod; component install
+install:
+	@make -C lib/miod components
 
-run: lib/miod/components
+run: install
 	@NODE_PATH=lib node index.js
 
 test:
