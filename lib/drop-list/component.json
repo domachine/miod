@@ -6,6 +6,9 @@
   "local": [
     "drop"
   ],
+  "dependencies": {
+    "visionmedia/superagent": "*"
+  },
   "main": "drop-list.js",
   "scripts": [
     "drop-list.js",

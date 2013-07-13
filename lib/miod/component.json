@@ -3,6 +3,10 @@
   "paths": [
     ".."
   ],
+  "local": [
+    "drop",
+    "drop-list"
+  ],
   "dependencies": {
     "component/dropload": "*",
     "component/query": "*"

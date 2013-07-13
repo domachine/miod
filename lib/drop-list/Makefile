@@ -8,7 +8,9 @@ components: component.json
 template.js: template.html
 	@component convert $<
 
-test:
+test: build
+	@node ../../node_modules/.bin/mocha --reporter spec test/index.js
+	@node test/server.js
 
 clean:
 	rm -rf build components
