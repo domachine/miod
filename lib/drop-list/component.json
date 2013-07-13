@@ -1,0 +1,17 @@
+{
+  "name": "drop-list",
+  "paths": [
+    ".."
+  ],
+  "local": [
+    "drop"
+  ],
+  "main": "drop-list.js",
+  "scripts": [
+    "drop-list.js",
+    "template.js"
+  ],
+  "styles": [
+    "drop-list.css"
+  ]
+}
