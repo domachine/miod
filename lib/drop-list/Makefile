@@ -10,4 +10,7 @@ template.js: template.html
 
 test:
 
-.PHONY: test
+clean:
+	rm -rf build components
+
+.PHONY: test clean
